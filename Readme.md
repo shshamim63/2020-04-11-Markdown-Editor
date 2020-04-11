@@ -1,86 +1,68 @@
-# Today's Objective: Markdown Editor
+# react-calculator
 
-## Prize
+[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-$25 CAD Amazon gift card + bragging rights.
+> A simple Web about generating your own markdown.
 
-Tip: Read the [General Information Document](General%20Information.md) for more info on how to get started and submit.
+## Table of Contents
 
-## Objective
+- [Live Demo](#livedemo)
+- [Background](#background)
+- [Built With](#buildwith)
+- [Prerequisites](#Prerequisites)
+- [Install](#install)
+- [Maintainers](#maintainers)
+- [License](#license)
 
-Today's objective is to create your own Markdown Editor.
+## Live Demo
 
-Markdown, as you probably already know, is a formatting language for text-based documents. This document is written in Markdown. You can see its source to get a taste for what Markdown looks like.
+>Live version can be found in [Live](https://flamboyant-yalow-7036ad.netlify.com/) 
 
-Some examples of Markdown Editors include:
+## Background
+An online markdown webpage using ace editor and marked.
 
-* [StackEdit](https://stackedit.io/) (simple web-based)
-* [Dillinger](https://dillinger.io/) (simple web-based)
-* [Typora](https://typora.io/) (installed, with advanced features)
-* [hackmd](https://hackmd.io/) (this is a lot more than just a simple markdown editor)
+## Built With
+- Major languages - JavaScript, html5, CSS3
+- Frameworks - [React](https://reactjs.org/)
 
-## Requirements
+## Prerequisites
+- Device must have installed nodejs. You can install it from [here](https://nodejs.org/en/).
 
-Create a Markdown editor, like the above, that has the following components:
+## Install
 
-* Input area
-* Compilation logic (you can use a library for this)
-* Preview panel (no need to do live preview, using a submit button is fine)
+Open terminal and perform the operation sequentially.
 
-Also, you should try to have a good stylesheet for the output HTML (you can use something like Bootstrap, Bulma, etc.)
+1. Clone the repository `https://github.com/shshamim63/2020-04-11-Markdown-Editor`
+2. Get into the repository `cd 2020-04-11-Markdown-Editor`
+3. Install the dependencies on node_module
+  - With npm - `npm install` <br>
+  OR
+  - With yarn - `yarn install`
+4. To start the project `yarn start` or `npm start`
 
-### Bonus points
+## Maintainers
+👤 **Shakhawat Hossain**
 
-You get bonus points for any features other than the above that you can successfully demo. 
+- Github: [@shshamim63](https://github.com/shshamim63)
+- Twitter: [@Shshamim090](https://twitter.com/Shshamim090)
+- Linkedin: [shakhawathossainshamim](https://www.linkedin.com/in/shakhawathossainshamim/)
 
-For example:
+## 🤝 Contributing
 
-* Live preview (where your edits in the input area automatically show up in the preview panel)
-* Syntax highlighting for input area
-* Selectable themes for input area
-* Selectable themes for preview panel
-* Print to PDF
-* Locally installed (using Electron, for example)
-* Responsive design 
+Contributions, issues and feature requests are welcome!
 
-That's it!
+Feel free to check the [issues page](issues/).
+___
+PRs accepted.
+___
 
-The most interesting, useful, and cool designs will have a chance of winning -- and they must be written well, too. So, get creative :-)
+## Show your support
 
-## How to build a simple markdown editor
+Give a ⭐️ if you like this project!
 
-Building a markdown editor is remarkably simple. You can use libraries for a lot of the functionality, and stitch them together using JavaScript logic.
 
-Here are some suggested components for the various components above:
+Small note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
 
-### Input Area - Suggested Libraries
+## License
 
-* CodeMirror
-* Ace Editor
-
-### Compilation Logic
-
-* [Showdown](https://github.com/showdownjs/showdown)
-* [markdown-it](https://github.com/markdown-it/markdown-it)
-* [markedjs](https://github.com/markedjs/marked)
-
-### Preview Panel
-
-Well, for this one, you just output the compiled HTML to the DOM. :-)
-
-## Frameworks:
-
-It is completely possible to build this using jQuery. You can use React, Vue, Angular if you wish.
-
-## Restrictions
-
-* Your project must use JavaScript.
-
-There are no other restrictions.
-
-## Tips for success:
-
-1. The project is intentionally simple so you can focus on code quality.
-1. The requirements are intentionally minimalistic so you can get as creative as you'd like.
-1. You get a LOT of time for code review comments. So you can win even if you feel your project isn't great, simply on the strength of your code review comments!
-1. Keep in mind, 33% of your score is based on aesthetic appeal! So try to make it look nice.
+MIT © 2019 Shakhawat Hossain
