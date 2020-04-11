@@ -6,13 +6,12 @@ import "ace-builds/src-noconflict/theme-github";
 
 const InputField = ({value, onchangeText }) => {
   return (
-    <div>
-      < AceEditor 
-        mode="markdown"
-        theme="github"
-        value = {value}
-        onChange = {onchangeText}/>
-    </div>
+    < AceEditor 
+      mode="markdown"
+      theme="github"
+      value = {value}
+      onChange = {onchangeText}
+    />
   );
 }
 
